@@ -2,7 +2,7 @@ from app.errors import VaccineError, NotWearingMaskError
 from app.cafe import Cafe
 
 
-def go_to_cafe(friends: list, cafe: "Cafe") -> None:
+def go_to_cafe(friends: list, cafe: "Cafe") -> str:
     no_exception = True
     masks_to_buy = 0
 
